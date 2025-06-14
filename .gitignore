@@ -1,0 +1,48 @@
+###
+# Gradle
+###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# Gradle build outputs
+**/build/
+
+###
+# Java
+###
+*.class
+*.jar                              # JARy
+*.jmod                             # JMody (Java 9+)
+*.log
+hs_err_pid*
+
+
+###
+# IDE
+###
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings/
+
+# VS Code
+.vscode/
+
+###
+# OS
+###
+.DS_Store
+Thumbs.db
+
+*.log
+/tmp/
+/temp/
+/out/
+coverage/
+jacoco/
