@@ -13,10 +13,6 @@ docker run --name postgresql \
   bitnami/postgresql:latest
 ---
 ## Use Gradle to build and run the project:
-
-bash
-Copy
-Edit
 ./gradlew build
 ./gradlew run
 
